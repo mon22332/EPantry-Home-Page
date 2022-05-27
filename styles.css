@@ -1,0 +1,145 @@
+h1 {
+    font-size: 60pt;
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+h3 {
+    font-size: 30pt;
+}
+
+input {
+    font-size: 30pt;
+}
+
+p {
+    font-size: 20pt;
+}
+
+.red {
+    color: red;
+}
+
+.alert {
+    display: flex;
+    background-color: #ffb3da;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.alert-icon {
+    height: 50px;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.alert-number {
+    padding-right: 10px;
+    margin-right: 6px;
+    font-family: 'Oswald', sans-serif;
+    color: red;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #ffcce6;
+    padding: 10px;
+}
+
+.navbar-icon {
+    background-color: #ffb3da;
+    height: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.navbar-current {
+    background-color: #ffb3da;
+    height: 50px;
+    outline: 5px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.addNewFoodItem {
+    margin-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+
+    font-family: 'Oswald', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.error {
+    border: 3px solid red;
+    border-radius: 2px;
+}
+
+.food-item {
+    display: flex;
+    background-color: #ffebcc;
+    padding: 10px;
+    border-left: 5px solid black;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.food-item-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.expiration {
+    margin-right: 5%;
+    margin-left: auto;
+}
+
+.addNewItem {
+    border: 5px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+}
+
+.cancel {
+    color: red;
+    border: 5px solid red;
+    margin-top: 5px;
+}
+
+.food-icon {
+    height: 100px;
+    width: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.delete {
+    color: white;
+    width: 30%;
+    background-color: red;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
